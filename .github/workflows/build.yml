@@ -3,12 +3,12 @@ name: Android CI and CD
 on:
   push:
     branches: 
-      - main
+      - master
       - qa
       - develop
   pull_request:
     branches: 
-      - main
+      - master
       - qa
 
 env:
